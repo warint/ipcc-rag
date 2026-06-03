@@ -113,7 +113,4 @@ A later audit capture recorded the following environment. These values document 
 
 The deposited scripts and outputs make the analytical structure inspectable, but they do not provide a fully exact historical rerun record. The scripts are redacted to avoid distributing a private local-area-network endpoint. Repository users should set `OLLAMA_HOST` in their own environment rather than editing private server addresses into the scripts. The model is queried locally through the configured endpoint; no external API call is required by the scripts unless the local endpoint is itself configured to proxy requests elsewhere.
 
-## Citation
-
-This repository accompanies a manuscript by Thierry Warin and Christophe Bisson on AI-assisted comparative analysis of IPCC reports using Retrieval-Augmented Generation and layered analytical prompts. Please update this section with the final journal citation, DOI, and repository DOI after publication or archival deposit.
 
